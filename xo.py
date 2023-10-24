@@ -11,7 +11,7 @@ class TicTacToe:
 
     def make_move(self, position):
         if self.board[position] == " ":
-            self.board[position] = self.current_player
+            self.board[position] = self.current_player 
             if self.check_winner():
                 self.display_board()
                 print(f"Player {self.current_player} wins!")
